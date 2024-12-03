@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Go3v2'; 
+    src: url('../fonts/go3v2.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    background-color: #F5F5F5; 
+}
+
+h1, h2 {
+    font-family: 'Go3v2', sans-serif;
+    color: #D4AF37;
+}
+
+.container-text-white {
+    font-family: 'Go3v2', sans-serif;
+}
+
+.text-sakura {
+    color: #FFC1CC; 
+    font-family: 'Go3v2', sans-serif;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none; 
+}
+
+.text-whitee{
+    font-family: 'Go3v2', sans-serif; 
+    font-size: 30px;
+}
+.lead{
+    color: #F5F5F5;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFC1CC; 
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+}
+
+.contenido {
+    justify-content: flex-start; 
+}
+
+.bg-sakura {
+    background-color: #FFC1CC; 
+}
+
+a i {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 8px;
+}
+
+a:hover i {
+    color: #D4AF37; 
+}
+
+/* Fondo de la sección */
+.bg-chocolate {
+    background-color: #1E3441;
+}
+
+/* Texto de la sección */
+.text-sakura {
+    color: #FFC1CC; 
+}
+
+/* Botones con transiciones */
+.btn {
+    background-color: #D72638; 
+    color: #F5F5F5;
+    border: 2px solid #D4AF37; 
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #D4505D; 
+    color: #F5F5F5;
+    border-color: #D4AF37; 
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;  
+    height: 0;
+    padding-top: 56.25%;  
+    border: 5px solid #FFC1CC;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto;  
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* Fondo de secciones */
+.bg-dorado {
+    background-color: #D4AF37;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos de la tabla (carta) */
+.table thead {
+    background-color: #D72638; 
+    color: #F5F5F5;
+    border-bottom: 2px solid #D4AF37; 
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #FFC1CC;
+}
+
+.table td, .table th {
+    border: 1px solid #D4AF37; 
+}
+
+/* Formulario */
+.form-control:focus {
+    border-color: #D4AF37; 
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.7); 
+}
+
+/* Casillas de verificación */
+.form-check-input:checked {
+    background-color: #D4AF37; 
+    border-color: #D4AF37;
+}
+
+/* Enlaces */
+a {
+    color: #1E3441; 
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+    color: #D4AF37; 
+    border-bottom: 2px solid #D4AF37; 
+}
+
+/* Hover sobre tarjetas */
+.cardo {
+    border: 2px solid #D4AF37; 
+    transition: box-shadow 0.3s ease;
+}
+
+.cardo:hover {
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5); 
+}
+.card {
+    border: 2px solid #D4AF37; 
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5); 
+}
+
+/* Estilos de la carta (tabla de productos) */
+.table thead {
+    background-color: #D72638; 
+    color: #F5F5F5;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F5F5F5; 
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #FFC1CC; 
+}
+.card img {
+    width: 350px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Agrega sombra para dar profundidad */
+}
+.cardo img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardo img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Agrega sombra para dar profundidad */
+}
+.custom-paragraph {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem; 
+    color: #5D3A3A; 
+    line-height: 1.7; 
+    text-align: center; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    transition: all 0.3s ease-in-out; 
+    letter-spacing: 0.5px; 
+}
+
+.custom-paragraph:hover {
+    color: #D72638; 
+    transform: scale(1.05); 
+}
+/* Contenedor del slider */
+.bg-slider {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+/* Estilo base de las imágenes de fondo */
+.bg-slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+    z-index: -1; /* Coloca las imágenes detrás del contenido */
+    background-image: url('../imagen/pexels-amar-17592743.jpg'); /* Primera imagen */
+    opacity: 1;
+}
+
+/* Hover para cambiar las imágenes */
+.bg-slider:hover::before {
+    background-image: url('../imagen/pexels-frans-van-heerden-201846-670705.jpg'); /* Segunda imagen */
+}
+
+/* Alternativas para más imágenes (usando animación) */
+@keyframes slide {
+    0% { background-image: url('../imagen/pexels-viniciusbenedit-3620705.jpg'); }
+    33% { background-image: url('../imagen/pexels-pixabay-357756.jpg'); }
+    66% { background-image: url('../imagen/pexels-amar-17592743.jpg'); }
+    100% { background-image: url('../imagen/pexels-catscoming-955137.jpg'); }
+}
+
+.bg-slider.animate::before {
+    animation: slide 6s infinite ease-in-out;
+}
